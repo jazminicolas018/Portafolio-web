@@ -14,11 +14,11 @@ Fue desarrollado con HTML, CSS y JS con el uso de framework Bootstrap utilizando
 * Bootstrap 5
 
 - Capturas de pantalla 
-![Sección Yo](assets/th.png)
-![Sección Yo](assets/th1.png)
-![Sección Yo](assets/th2.png)
-![Sección Yo](assets/th3.png)
-![Sección Yo](assets/th4.png)
+![Sección Yo](assets/th.PNG)
+![Sección Yo](assets/th1.PNG)
+![Sección Yo](assets/th2.PNG)
+![Sección Yo](assets/th3.PNG)
+![Sección Yo](assets/th4.PNG)
 
 - Créditos
 Creado por Itzel Nicolás en el bootcamp de Technolochicas PRO.
