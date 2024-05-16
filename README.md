@@ -14,7 +14,7 @@ Fue desarrollado con HTML, CSS y JS con el uso de framework Bootstrap utilizando
 * Bootstrap 5
 
 - Capturas de pantalla 
-![Sección Yo](assets/th.PNG)
+![Sección Yo](assets/th.jpeg)
 ![Sección Yo](assets/th1.PNG)
 ![Sección Yo](assets/th2.PNG)
 ![Sección Yo](assets/th3.PNG)

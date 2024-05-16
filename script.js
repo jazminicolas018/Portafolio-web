@@ -1,16 +1,13 @@
-var app = document.getElementById('app');
-
-var typewriter = new Typewriter(app, {
+let app = new Typewriter('#app', {
     loop: true
 });
 
-typewriter
-    .typeString('Itzel Nicolás')
+app.typeString('<i>Itzel Nicolás</i>')
     .pauseFor(1500)
     .deleteAll()
-    .typeString('Programadora')
+    .typeString('<i>Programadora</i>')
     .pauseFor(1500)
     .deleteAll()
-    .typeString('<strong>Estudiante en Desarrollo y Gestión de Software.</strong>')
+    .typeString('<i>Estudiante en Desarrollo y Gestión de Software.</i>')
     .pauseFor(1500)
     .start();
