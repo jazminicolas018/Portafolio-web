@@ -1,144 +1,168 @@
-                                nav,
-                                header {
-                                    color: white;
-                                }
-                                
-                                #navbarNav a {
-                                    color: white;
-                                    text-align: right;
-                                }
-                                
-                                .icono {
-                                    font-size: 3rem;
-                                    color: rgb(16, 46, 179);
-                                    background-color: rgb(3, 11, 26);
-                                    padding: 1rem;
-                                    margin: 1rem;
-                                    border-radius: 12px;
-                                }
-                                
-                                .icono-contacto {
-                                    font-size: 2rem;
-                                    color: rgb(255, 255, 255);
-                                    background-color: black;
-                                    /*        arriba derecha abajo izq 
+nav,
+header {
+    color: white;
+}
+
+#navbarNav a {
+    color: white;
+    text-align: right;
+}
+
+.icono {
+    font-size: 3rem;
+    color: rgb(16, 46, 179);
+    background-color: rgb(3, 11, 26);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.icono-contacto {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    /*        arriba derecha abajo izq 
                                       padding: 0.5rem 1rem 0.5rem 1rem; */
-                                    padding: 0.8rem 1rem;
-                                    margin: 1rem;
-                                    border-radius: 75%;
-                                }
-                                
-                                #icono-footer {
-                                    font-size: 5rem;
-                                    color: blue;
-                                    padding: 1rem;
-                                    margin: 1rem;
-                                    border-radius: 12px;
-                                }
-                                
-                                .subtitulo-habilidades {
-                                    margin-top: 16px;
-                                }
-                                
-                                header {
-                                    padding-right: 0px !important;
-                                    padding-left: 0px !important;
-                                    height: 100vh;
-                                    background-image: url('assets/fondo.png');
-                                    background-size: cover;
-                                    background-position: center;
-                                    background-repeat: no-repeat;
-                                    /* Prevent the image from repeating */
-                                    background-attachment: fixed;
-                                    /* Keep the image in place while scrolling */
-                                    filter: brightness(0.8);
-                                    /* Adjust the brightness */
-                                }
-                                
-                                .animated-border {
-                                    border: 5px solid transparent;
-                                    position: relative;
-                                    animation: borderAnimation 2s infinite alternate;
-                                }
-                                
-                                @keyframes borderAnimation {
-                                    20% {
-                                        border-top-color: black;
-                                        border-right-color: transparent;
-                                        border-bottom-color: transparent;
-                                        border-left-color: transparent;
-                                    }
-                                    30% {
-                                        border-top-color: transparent;
-                                        border-right-color: palevioletred;
-                                        border-bottom-color: transparent;
-                                        border-left-color: transparent;
-                                    }
-                                    50% {
-                                        border-top-color: transparent;
-                                        border-right-color: transparent;
-                                        border-bottom-color: rgb(9, 49, 227);
-                                        border-left-color: transparent;
-                                    }
-                                    75% {
-                                        border-top-color: transparent;
-                                        border-right-color: transparent;
-                                        border-bottom-color: transparent;
-                                        border-left-color: red;
-                                    }
-                                    100% {
-                                        border-top-color: transparent;
-                                        border-right-color: transparent;
-                                        border-bottom-color: transparent;
-                                        border-left-color: transparent;
-                                    }
-                                }
-                                
-                                .github:hover {
-                                    color: #5a36af;
-                                    /* Color de GitHub */
-                                }
-                                
-                                .instagram:hover {
-                                    color: brown;
-                                    /* Color de Instagram */
-                                }
-                                
-                                .correo:hover {
-                                    color: #f22121;
-                                    /* Color de Correo */
-                                }
-                                
-                                .linkedin:hover {
-                                    color: #0e76a8;
-                                    /* Color de LinkedIn */
-                                }
-                                
-                                .facebook:hover {
-                                    color: blue;
-                                    /* Color de Facebook */
-                                }
-                                
-                                .navbar-nav .nav-item:hover {
-                                    background-color: rgb(67, 52, 135);
-                                }
-                                
-                                #testimonios {
-                                    background-color: rgba(23, 23, 23, 0.866);
-                                    /* Cambia el color al que desees */
-                                    padding: 0px;
-                                    /* Ajusta el espacio interno según sea necesario */
-                                    color: white;
-                                }
-                                
-                                .carousel-item img {
-                                    border: 5px solid #1c0bd6;
-                                    /* Ajusta el grosor y el color del borde según tus preferencias */
-                                }
-                                
-                                .card {
-                                    width: 300px;
-                                    /* Establece el ancho deseado */
-                                    height: 250px;
-                                    /* Establece la altura deseada */
-                                }
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+    border-radius: 75%;
+}
+
+#icono-footer {
+    font-size: 5rem;
+    color: blue;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.subtitulo-habilidades {
+    margin-top: 16px;
+}
+
+header {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 100vh;
+    background-image: url('assets/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-attachment: fixed;
+    /* Keep the image in place while scrolling */
+    filter: brightness(0.8);
+    /* Adjust the brightness */
+}
+
+.animated-border {
+    border: 5px solid transparent;
+    position: relative;
+    animation: borderAnimation 2s infinite alternate;
+}
+
+@keyframes borderAnimation {
+    20% {
+        border-top-color: black;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    30% {
+        border-top-color: transparent;
+        border-right-color: palevioletred;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    50% {
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: rgb(9, 49, 227);
+        border-left-color: transparent;
+    }
+    75% {
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: red;
+    }
+    100% {
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+}
+
+.github:hover {
+    color: #5a36af;
+    /* Color de GitHub */
+}
+
+.instagram:hover {
+    color: brown;
+    /* Color de Instagram */
+}
+
+.correo:hover {
+    color: #f22121;
+    /* Color de Correo */
+}
+
+.linkedin:hover {
+    color: #0e76a8;
+    /* Color de LinkedIn */
+}
+
+.facebook:hover {
+    color: blue;
+    /* Color de Facebook */
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: rgb(67, 52, 135);
+}
+
+#testimonios {
+    background-color: rgba(23, 23, 23, 0.866);
+    /* Cambia el color al que desees */
+    padding: 1px;
+    /* Ajusta el espacio interno según sea necesario */
+    color: white;
+    padding-bottom: 30px;
+    /* Espacio en la parte inferior de la sección */
+}
+
+.carousel-item img {
+    border: 5px solid #1c0bd6;
+    /* Ajusta el grosor y el color del borde según tus preferencias */
+}
+
+.card {
+    width: 300px;
+    /* Establece el ancho deseado */
+    height: 250px;
+    /* Establece la altura deseada */
+}
+
+
+/* Estilo para las imágenes dentro del carrusel */
+
+.carousel-item img {
+    width: 20px;
+    /* Define el ancho deseado para las imágenes */
+    height: auto;
+    /* Mantiene la proporción de aspecto */
+    margin: 0 auto;
+    /* Centra las imágenes horizontalmente */
+    display white;
+    /* Evita espacios no deseados debajo de las imágenes */
+}
+
+
+/* Estilo para los elementos del carrusel */
+
+.carousel-item {
+    padding: 20px;
+    /* Añade espacio alrededor del contenido del carrusel */
+}
